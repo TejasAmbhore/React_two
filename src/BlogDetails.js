@@ -7,7 +7,7 @@ const BlogDetails = () => {
     const { data: blog, error, isPending } = useFetch('http://localhost:8000/blogs/' + id)
     const history = useHistory();
     const handleClick = () => {
-        fetch('http://TejasAmbhore.github.io/React_two/data/db.json/blogs' + blog.id, {
+        fetch('http://TejasAmbhore.github.io/React_two/data/db.json/' + blog.id, {
             method:'DELETE'
         }) .then(() => {
             history.push('/');
