@@ -51,7 +51,7 @@ const Home = () => {
    //     }, 1000);
    // },[]);
 
-   const { data: blogs, isPending, error } = useFetch('http://TejasAmbhore.github.io/React_two/data/db.json/')
+   const { data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs')
 
     return (
         /*<div className="home">
