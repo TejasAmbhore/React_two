@@ -44,9 +44,9 @@ function App() {
             <Route path="/reacttwo/blogs/:id">
               <BlogDetails />
             </Route>
-            <Route path="/reacttwo/*">
+            {/*<Route path="/reacttwo/*">
               <NotFound />
-            </Route>
+  </Route>*/}
           </Switch>
         </div>
       </div>
