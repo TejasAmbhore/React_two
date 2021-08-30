@@ -35,13 +35,13 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/reacttwo">
+            <Route exact path="reacttwo">
               <Home />
             </Route>
-            <Route path="/reacttwo/create">
+            <Route path="reacttwo/create">
               <Create />
             </Route>
-            <Route path="/reacttwo/blogs/:id">
+            <Route path="reacttwo/blogs/:id">
               <BlogDetails />
             </Route>
             {/*<Route path="/reacttwo/*">

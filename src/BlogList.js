@@ -10,7 +10,7 @@ const BlogList = ({ blogs }) => {
         <div className="blog-list">
         {blogs.map(blog => (
           <div className="blog-preview" key={blog.id} >
-            <Link to={`/reacttwo/blogs/${blog.id}`}>
+            <Link to={`reacttwo/blogs/${blog.id}`}>
               <h2>{ blog.title }</h2>
               <p>Written by { blog.author }</p>
             </Link>
