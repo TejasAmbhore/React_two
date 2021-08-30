@@ -4,10 +4,10 @@ import useFetch from "./useFetch";
 const BlogDetails = () => {
 
     const { id } = useParams()
-    const { data: blog, error, isPending } = useFetch('https://TejasAmbhore.github.io/reacttwo/db.json/blogs' + id)
+    const { data: blog, error, isPending } = useFetch('https://raw.githubusercontent.com/TejasAmbhore/reacttwo/master/db.json/blogs' + id)
     const history = useHistory();
     const handleClick = () => {
-        fetch('https://TejasAmbhore.github.io/reacttwo/db.json/blogs' + blog.id, {
+        fetch('https://raw.githubusercontent.com/TejasAmbhore/reacttwo/master/db.json/blogs' + blog.id, {
             method:'DELETE'
         }) .then(() => {
             history.push('reacttwo');
