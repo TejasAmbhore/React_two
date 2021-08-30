@@ -5,7 +5,7 @@ const NotFound = () => {
         <div className="not-found">
             <h1>404 error</h1>
             <h2>This page doesn't exist.</h2>
-            <Link to="/" style={
+            <Link to="/React_two/" style={
                 {
                     color:'#f1356d',
                 }
