@@ -17,7 +17,7 @@ const Create = () => {
       body: JSON.stringify(blog)
     }).then(() => {
       // history.go(-1);
-      history.push('/React_two');
+      history.push('/reacttwo');
     })
   }
 
