@@ -11,7 +11,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
 
-    fetch('https://raw.githubusercontent.com/TejasAmbhore/reacttwo/master/db.json/blogs', {
+    fetch('https://raw.githubusercontent.com/TejasAmbhore/reacttwo/master/db.json', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
