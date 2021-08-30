@@ -35,16 +35,16 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/React_two/">
               <Home />
             </Route>
-            <Route path="/create/">
+            <Route path="/React_two/create/">
               <Create />
             </Route>
-            <Route path="/blogs/:id">
+            <Route path="/React_two/blogs/:id">
               <BlogDetails />
             </Route>
-            <Route path="*">
+            <Route path="/React_two/*">
               <NotFound />
             </Route>
           </Switch>
